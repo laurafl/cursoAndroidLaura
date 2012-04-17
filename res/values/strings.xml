@@ -3,5 +3,10 @@
 
     <string name="hello">Hello World, CursoAndroidLauraActivity!</string>
     <string name="app_name">CursoAndroidLaura</string>
+    <string name="primero">Primero!</string>
+    <string name="segundo">Segundo!</string>
+    <string name="tercero">Tercero!</string>
+    <string name="ultimo">Último!</string>
+    <string name="autodes">Autodestrucción</string>
 
 </resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/primero"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textColor="@color/rojo" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/text1"
+        android:text="@string/segundo"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/blanco"/>
+        
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/text2"
+        android:text="@string/tercero" 
+        android:textSize="10sp"
+        android:typeface="monospace"
+        android:gravity="right"
+        android:textColor="@color/verde"/>
+    
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:text="@string/ultimo"
+        android:textSize="5sp" 
+        android:gravity="center"
+        android:textColor="@color/amarillo"/>
+    
+    
+</LinearLayout>
