@@ -7,6 +7,14 @@
     <string name="segundo">Segundo!</string>
     <string name="tercero">Tercero!</string>
     <string name="ultimo">Último!</string>
-    <string name="autodes">Autodestrucción</string>
+    <string name="autodes">Autodestrucción en 5sg</string>
+    <string name="bien">Todo está bien</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="borrar">Borrar</string>
+    <string name="titulo">Formulario de inscripción</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="ciudad">Ciudad</string>
 
 </resources>

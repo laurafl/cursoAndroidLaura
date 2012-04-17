@@ -9,11 +9,18 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/autodes"
-        android:textSize="30sp"
+        android:textSize="10sp"
         android:gravity="center"
         android:textColor="@color/rojo"
         android:onClick="click">
     </Button>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Todo está bien"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/rojo" />
     
     
 </LinearLayout>
