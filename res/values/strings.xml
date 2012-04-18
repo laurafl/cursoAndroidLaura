@@ -16,5 +16,6 @@
     <string name="nombre">Nombre</string>
     <string name="apellidos">Apellidos</string>
     <string name="ciudad">Ciudad</string>
+    <string name="info">Información</string>
 
 </resources>

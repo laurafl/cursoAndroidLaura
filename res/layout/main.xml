@@ -4,6 +4,13 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
+    <ImageView
+        android:id="@+id/img"
+        android:src="@drawable/logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo">
+   </ImageView>
     
     <TextView
         android:id="@+id/text2"
@@ -18,16 +25,17 @@
        android:orientation="horizontal" >
 
        <TextView
-           android:id="@+id/texto1"
-           android:layout_width="wrap_content"
+           android:id="@+id/nombre"
+           android:layout_width="0dp"
            android:layout_height="wrap_content"
+           android:layout_weight="1"
            android:text="@string/nombre" />
 
        <EditText
            android:id="@+id/input1"
-           android:layout_width="wrap_content"
+           android:layout_width="0dp"
            android:layout_height="wrap_content"
-           android:layout_weight="0.87" />
+           android:layout_weight="1" />
 
    </LinearLayout>
 
@@ -38,7 +46,7 @@
         android:orientation="horizontal" >
 
         <TextView
-            android:id="@+id/texto2"
+            android:id="@+id/apellidos"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -46,7 +54,7 @@
 
         <EditText
             android:id="@+id/input2"
-            android:layout_width="odp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
     </LinearLayout>
@@ -64,9 +72,9 @@
 	        android:layout_weight="1"
 	        android:text="@string/ciudad" />
 
-	    <EditText
-	        android:id="@+id/input3"
-	        android:layout_width="match_parent"
+	    <Spinner
+	        android:id="@+id/spinner"
+	         android:layout_width="0dp"
 	        android:layout_height="wrap_content"
 	        android:layout_weight="1" />
 	</LinearLayout>
